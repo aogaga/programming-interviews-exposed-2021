@@ -1,0 +1,37 @@
+package treendgraph;
+
+import java.util.HashMap;
+
+public class StrAndArray {
+
+  public String removeChars(String str, String remove){
+    StringBuilder sb = new StringBuilder();
+    HashMap<Character, Character> map = StrAndArray.getMapFromString(remove);
+
+    for(int i = 0; i < str.length(); i++){
+
+      if(!map.containsKey(str.charAt(i))){
+        sb.append(str.charAt(i));
+      }
+    }
+
+    return sb.toString();
+
+  }
+
+
+  public static HashMap<Character, Character> getMapFromString(String str){
+    HashMap<Character, Character> hm = new HashMap<>();
+
+    for (int i = 0; i < str.length(); i++){
+        hm.put(str.charAt(i), str.charAt(i));
+    }
+    return  hm;
+  }
+
+
+  public String reverseWords(String str){
+
+    String [] wordMap
+  }
+}
