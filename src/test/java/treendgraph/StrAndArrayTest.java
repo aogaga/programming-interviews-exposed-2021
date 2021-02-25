@@ -17,4 +17,11 @@ private StrAndArray sta;
   void removeChars() {
     assertEquals("gg g", sta.removeChars("aogaga agi", "aeiou"));
   }
+
+  @Test
+  void reverseStr(){
+
+    assertEquals("agi ogaga", sta.reverseWords("ogaga agi"));
+    assertEquals("try. no is there not, do or Do", sta.reverseWords("Do or do not, there is no try."));
+  }
 }

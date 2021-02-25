@@ -11,6 +11,6 @@
         <module name="programming-interviews-exposed-2021.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="15" />
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
