@@ -33,10 +33,6 @@ public class StrAndArray {
 
 
   public String reverseWords(String str){
-
-<<<<<<< HEAD
-      return "";
-=======
     String [] wordMap = str.split(" ");
     StringBuilder sb = new StringBuilder();
 
@@ -56,6 +52,7 @@ public class StrAndArray {
     for(int i = 0; i < str.length(); i++){
         char x = str.charAt(i);
     }
->>>>>>> 275e802c6a81691239d8602ac6c84a7f03eda6e0
+
+    return result;
   }
 }
