@@ -1,6 +1,8 @@
 package treendgraph;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class StrAndArray {
 
@@ -32,6 +34,28 @@ public class StrAndArray {
 
   public String reverseWords(String str){
 
+<<<<<<< HEAD
       return "";
+=======
+    String [] wordMap = str.split(" ");
+    StringBuilder sb = new StringBuilder();
+
+    int len = wordMap.length -1;
+    for(int i = len; i > 0; i--){
+      sb.append(wordMap[i]);
+      sb.append(" ");
+    }
+
+    sb.append(wordMap[0]);
+    return sb.toString();
+  }
+
+  public List<String> permutations(String str){
+    List<String> result = new ArrayList<>();
+
+    for(int i = 0; i < str.length(); i++){
+        char x = str.charAt(i);
+    }
+>>>>>>> 275e802c6a81691239d8602ac6c84a7f03eda6e0
   }
 }
